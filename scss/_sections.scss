@@ -1,0 +1,73 @@
+.contactos {
+	padding: 20px;
+	background-color: black;
+	color: white;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+}
+.footer {
+	font-size: 15px;
+	background-color: black;
+	color: white;
+	font-family: 'Roboto' , sans-serif;
+}
+.cardDisplay {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 5px;
+	margin-right: 10px;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+#nosotros{
+    padding: 50px;
+    font-family: 'Orelega', sans-serif;
+    text-align: center;
+    #nosotros2{
+        border-style: double;
+        border-color: black;
+        background-color: #f9c5d1;
+        background-image: linear-gradient(315deg, #f9c5d1 0%, #979eef 74%);
+    }
+}
+#mangaDisplay{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#manga{
+    padding: 50px;
+    background-image:url("https://c.wallhere.com/photos/99/cb/manga_anime-1879243.jpg!d");
+    color: red;
+    font-family: 'Roboto' , sans-serif;
+    text-align: center;
+    backdrop-filter: blur(3px);
+}
+#danmei{
+    padding: 50px;
+    text-align: center;
+    color: black;
+    background-image: url("https://pillowfortmedia.s3.amazonaws.com/posts/9d846766b7cc_04.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .danmeiImg{
+        background-image: url("https://pm1.narvii.com/7671/e673a912a1f59110cb3a465773aedfb153d1c904r1-1928-1099v2_hq.jpg");
+        #danmeiInfo{
+            padding: 20px;
+            color: white;
+            #infoNovelas{
+                padding: 50px;
+                border-style: dotted;
+                border-color: black;
+                margin-top: 10px;
+                #novelas{
+                    text-decoration: underline;
+                }
