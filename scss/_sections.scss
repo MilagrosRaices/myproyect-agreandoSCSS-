@@ -1,3 +1,13 @@
+#h1{
+    padding: 10px;
+    text-align: center;
+    border: black;
+    color: white;
+    background-color: black;
+    border-style: inset;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
 .contactos {
 	padding: 20px;
 	background-color: black;
@@ -51,6 +61,7 @@
     text-align: center;
     backdrop-filter: blur(3px);
 }
+
 #danmei{
     padding: 50px;
     text-align: center;
@@ -58,16 +69,19 @@
     background-image: url("https://pillowfortmedia.s3.amazonaws.com/posts/9d846766b7cc_04.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    .danmeiImg{
-        background-image: url("https://pm1.narvii.com/7671/e673a912a1f59110cb3a465773aedfb153d1c904r1-1928-1099v2_hq.jpg");
-        #danmeiInfo{
-            padding: 20px;
-            color: white;
-            #infoNovelas{
-                padding: 50px;
-                border-style: dotted;
-                border-color: black;
-                margin-top: 10px;
-                #novelas{
-                    text-decoration: underline;
-                }
+    #danmeiInfo{
+        padding: 20px;
+        color: white;
+        #infoNovelas{
+            padding: 50px;
+            border-style: dotted;
+            border-color: black;
+            margin-top: 10px;
+            #novelas{
+                text-decoration: underline;
+            }
+        }
+    }
+    
+}
+

@@ -48,6 +48,16 @@
     transform: scale(1.1);
     transition: all 0.45s; }
 
+#h1 {
+  padding: 10px;
+  text-align: center;
+  border: black;
+  color: white;
+  background-color: black;
+  border-style: inset;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px; }
+
 .contactos {
   padding: 20px;
   background-color: black;
@@ -90,13 +100,14 @@
   margin-right: 10px;
   border-radius: 5px;
   margin-left: 5px; }
-  #mangaDisplay #manga {
-    padding: 50px;
-    background-image: url("https://c.wallhere.com/photos/99/cb/manga_anime-1879243.jpg!d");
-    color: red;
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-    backdrop-filter: blur(3px); }
+
+#manga {
+  padding: 50px;
+  background-image: url("https://c.wallhere.com/photos/99/cb/manga_anime-1879243.jpg!d");
+  color: red;
+  font-family: 'Roboto' , sans-serif;
+  text-align: center;
+  backdrop-filter: blur(3px); }
 
 #danmei {
   padding: 50px;
@@ -105,18 +116,16 @@
   background-image: url("https://pillowfortmedia.s3.amazonaws.com/posts/9d846766b7cc_04.gif");
   background-repeat: no-repeat;
   background-size: cover; }
-  #danmei .danmeiImg {
-    background-image: url("https://pm1.narvii.com/7671/e673a912a1f59110cb3a465773aedfb153d1c904r1-1928-1099v2_hq.jpg"); }
-    #danmei .danmeiImg #danmeiInfo {
-      padding: 20px;
-      color: white; }
-      #danmei .danmeiImg #danmeiInfo #infoNovelas {
-        padding: 50px;
-        border-style: dotted;
-        border-color: black;
-        margin-top: 10px; }
-        #danmei .danmeiImg #danmeiInfo #infoNovelas #novelas {
-          text-decoration: underline; }
+  #danmei #danmeiInfo {
+    padding: 20px;
+    color: white; }
+    #danmei #danmeiInfo #infoNovelas {
+      padding: 50px;
+      border-style: dotted;
+      border-color: black;
+      margin-top: 10px; }
+      #danmei #danmeiInfo #infoNovelas #novelas {
+        text-decoration: underline; }
 
 .ia-container {
   width: 685px;
@@ -234,7 +243,7 @@
   background-color: #f6f0c4;
   background-image: linear-gradient(315deg, #f6f0c4 0%, #d99ec9 74%); }
 
-#gradienteCienciaFiccion {
+#gradienteFantasia {
   background-color: red;
   background-image: linear-gradient(300deg, #f5eded, #d72323, #3e3636, #000000); }
 
@@ -249,3 +258,6 @@
 #gradienteNosotros {
   background-color: #21d190;
   background-image: linear-gradient(315deg, #21d190 0%, #d65bca 74%); }
+
+.danmeiImg {
+  background-image: url("https://pm1.narvii.com/7671/e673a912a1f59110cb3a465773aedfb153d1c904r1-1928-1099v2_hq.jpg"); }
